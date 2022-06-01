@@ -27,15 +27,17 @@
 	main {
 		width: 500px;
 		height: 500px;
-		border: solid blue 1px;
+		border: solid white 2px;
 		margin: 10px auto;
-		position: relative
+		position: relative;
+        border-radius: 25px;
 	}
 	div {
 		width: 50px;
 		height: 50px;
-		background-color: green;
+		background-color: red;
 		position: absolute;
+        border-radius: 25px;
 	}
 </style>
 
