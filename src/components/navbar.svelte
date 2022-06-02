@@ -7,7 +7,7 @@
 
 <svelte:window bind:innerWidth={width} />
 
-<header class="relative mb-10 min-w-min bg-black py-4 md:flex md:items-center md:justify-between">
+<header class="relative mb-10 min-w-min bg-white py-4 md:flex md:items-center md:justify-between">
 	<div class="md:mr-5 mb-1 px-0 flex items-center justify-between">
 		<h1 class="text-xl">
 			<a href="/" class="flex font-bold no-underline hover:text-gray-400">
@@ -25,7 +25,7 @@
 	</div>
 	{#if menuStatus === true || width >= 768}
 		<ul
-			class="absolute bg-black w-full md:static list-reset md:flex md:items-center md:justify-end"
+			class="absolute bg-white w-full md:static list-reset md:flex md:items-center md:justify-end"
 		>
 			<li class="nav-item">
 				<a href="#projects" class="hover:text-gray-400">
