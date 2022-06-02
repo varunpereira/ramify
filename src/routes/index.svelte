@@ -6,7 +6,7 @@
 	var original = 2 * 60; // TYPE NUMBER OF SECONDS HERE
 	var timer = tweened(original);
 	setInterval(function () {
-		if ($timer > 0) {
+		if ($timer > 1) {
 			$timer -= 1;
 		}
 	}, 1000);
