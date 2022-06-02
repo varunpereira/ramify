@@ -15,7 +15,7 @@
 	}
 </script>
 
-<div class="w-[500px] h-[500px] m-auto relative rounded-lg border-2 border-white">
+<div class="overflow-x-scroll overflow-y-scroll  w-[500px] h-[500px] m-auto relative rounded-lg border-2 border-white">
 	<img
 		style="left:{left}px; top:{top}px;"
 		src="/favicon.jpg"
