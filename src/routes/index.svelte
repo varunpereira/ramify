@@ -15,34 +15,13 @@
 	}
 </script>
 
-<main>
-	<!-- <div style="left:{left}px; top:{top}px;" /> -->
-    <img style="left:{left}px; top:{top}px;" src="/favicon.jpg" alt="logo"/>
-</main>
+<div class="w-[500px] h-[500px] m-auto relative rounded-lg border-2 border-white">
+	<img
+		style="left:{left}px; top:{top}px;"
+		src="/favicon.jpg"
+		alt="logo"
+		class="w-[50px] h-[50px] absolute rounded-full"
+	/>
+</div>
 
 <svelte:window on:keydown|preventDefault={typeKey} />
-
-<style>
-	main {
-		width: 500px;
-		height: 500px;
-		border: solid white 2px;
-		margin: 10px auto;
-		position: relative;
-		border-radius: 25px;
-	}
-	div {
-		width: 50px;
-		height: 50px;
-		background-color: red;
-		position: absolute;
-		border-radius: 25px;
-	}
-    img {
-		width: 50px;
-		height: 50px;
-		background-color: red;
-		position: absolute;
-		border-radius: 25px;
-	}
-</style>
