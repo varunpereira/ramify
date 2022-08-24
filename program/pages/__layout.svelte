@@ -1,5 +1,5 @@
 <script>
-	import '@src/app.css';
+	import '@src/program.css';
 	import NavBar from '@src/components/navbar.svelte';
 	import Footer from '@src/components/footer.svelte';
 </script>

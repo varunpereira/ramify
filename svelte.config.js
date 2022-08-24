@@ -1,18 +1,21 @@
-import adapter from '@sveltejs/adapter-auto';
 import path from 'path';
+import adapter from '@sveltejs/adapter-auto';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
+var config = {
 	kit: {
 		adapter: adapter(),
 		vite: {
 			resolve: {
 				alias: {
-					'@src': path.resolve('./src')
+					'@program': path.resolve('./program')
 				}
-			},
+			}
+		},
+		files: {
+			assets: 'program/public',
+			routes: 'program/pages',
+			template: 'program/program.html'
 		}
 	}
 };
-
 export default config;
