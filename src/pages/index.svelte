@@ -3,7 +3,7 @@
 	var y = 50;
 	var x = 1;
 	var move = 1;
-	var original = 2 * 60; // TYPE NUMBER OF SECONDS HERE
+	var original = 2 * 60; // seconds
 	var timer = tweened(original);
 	setInterval(function () {
 		if ($timer > 1) {
