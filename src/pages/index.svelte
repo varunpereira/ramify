@@ -25,6 +25,8 @@
 	}
 </script>
 
+<p>Use the arrow keys to reach the target!</p>
+
 <!-- get scroll x and y check if 0 and 0 -->
 <p class="text-center">Level 1 : {seconds} seconds left!</p>
 <div
